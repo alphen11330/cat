@@ -9,17 +9,17 @@
       margin: 0;
       height: 100%;
       display: flex;
-      justify-content: center;  /* 横中央 */
-      align-items: center;      /* 縦中央 */
-      background: #f0f0f0;
+      justify-content: center;
+      align-items: center;
+      background: #000000;
     }
     .container {
-      position: relative;       /* 文字を重ねる基準 */
+      position: relative;      
       display: inline-block;
     }
     img {
       display: block;
-      max-width: 80vw;          /* 画面に対してちょうど収まる */
+      max-width: 80vw;
       max-height: 80vh;
     }
     .text {
@@ -27,11 +27,11 @@
       top: 50%;
       left: 50%;
       transform: translate(-50%, -50%);
-      color: white;
+      color: black;
       font-size: 2em;
       font-weight: bold;
-      text-shadow: 2px 2px 4px rgba(0,0,0,0.7); /* 文字が見やすくなる */
-      pointer-events: none; /* 文字にマウスイベントが影響しない */
+      white-space: nowrap;
+      pointer-events: none;
     }
   </style>
 </head>
