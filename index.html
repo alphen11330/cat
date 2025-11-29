@@ -5,17 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ぬこ</title>
   <style>
-    <p>あっ、ねこ！！</p>
     html, body {
       margin: 0;
       height: 100%;
       display: flex;
       justify-content: center; /* 横方向中央 */
       align-items: center;     /* 縦方向中央 */
+      background: #f0f0f0;     /* 余白部分の背景色 */
     }
     img {
-      max-width: 80%;
-      max-height: 80%;
+      max-width: calc(100% - 20px);  /* 余白分を引く */
+      max-height: calc(100% - 20px); /* 余白分を引く */
     }
   </style>
 </head>
